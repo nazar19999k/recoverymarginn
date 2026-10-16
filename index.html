@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="RecoveryMargin — margin recovery and pricing intelligence for wholesale and industrial distributors." />
+  <title>RecoveryMargin — Find, Recover & Prevent Margin Leakage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="RecoveryMargin home">
+      <img src="assets/recoverymargin-logo.webp" alt="RecoveryMargin logo" />
+      <span>Recovery<span>Margin</span></span>
+    </a>
+    <nav>
+      <a href="#product">Product</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#technical">Technical</a>
+      <a class="nav-cta" href="#acquisition">Acquisition</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow">MARGIN RECOVERY OPERATING SYSTEM</div>
+        <h1>Protect gross profit before it disappears into the P&amp;L.</h1>
+        <p>RecoveryMargin helps wholesale and industrial distributors detect margin leakage, quantify financial risk, prevent bad deals, deploy approved pricing changes, and prove recovered dollars.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#product">Explore the product</a>
+          <a class="button secondary" href="#acquisition">Acquisition details</a>
+        </div>
+        <div class="trust-row">
+          <span>102 automated tests</span>
+          <span>140 API operations</span>
+          <span>37 database tables</span>
+          <span>Sale-ready v2.6.0</span>
+        </div>
+      </div>
+      <div class="hero-visual panel glow">
+        <img src="assets/overview.webp" alt="RecoveryMargin executive dashboard" />
+      </div>
+    </section>
+
+    <section class="stats shell" aria-label="Product highlights">
+      <article><strong>Detect</strong><span>Cost pass-through gaps, discounts, freight, rebates, small-order losses, contract issues.</span></article>
+      <article><strong>Decide</strong><span>Pricing intelligence, elasticity, what-if simulation, Deal Guard and approval workflows.</span></article>
+      <article><strong>Deploy</strong><span>Versioned price books, effective dates, approvals, publishing, rollback and deployment history.</span></article>
+      <article><strong>Measure</strong><span>Recovery queue, realized-dollar tracking, audit trails and closed-loop proof of value.</span></article>
+    </section>
+
+    <section id="product" class="section shell">
+      <div class="section-heading">
+        <div class="eyebrow">PRODUCT</div>
+        <h2>From leakage detection to pricing execution.</h2>
+        <p>A focused enterprise workflow built around one outcome: protecting and recovering gross margin.</p>
+      </div>
+
+      <div class="showcase">
+        <div class="showcase-copy">
+          <span class="kicker">Executive command center</span>
+          <h3>See where margin is escaping — in dollars.</h3>
+          <p>Prioritize the highest-value opportunities, separate observed evidence from modeled estimates, and track recovery from finding to realized outcome.</p>
+        </div>
+        <div class="panel"><img src="assets/overview.webp" alt="Executive margin recovery dashboard" /></div>
+      </div>
+
+      <div class="showcase reverse">
+        <div class="showcase-copy">
+          <span class="kicker">Deal Guard</span>
+          <h3>Stop bad deals before they become leakage.</h3>
+          <p>Evaluate proposed pricing against margin floors, discount policies, freight impact, contract context, and approval rules before a deal is approved.</p>
+        </div>
+        <div class="panel"><img src="assets/deal-guard.webp" alt="Deal Guard deal review screen" /></div>
+      </div>
+
+      <div class="showcase">
+        <div class="showcase-copy">
+          <span class="kicker">Pricing Lab</span>
+          <h3>Model price, volume, revenue and gross profit before publishing.</h3>
+          <p>Use elasticity-aware what-if scenarios, risk scoring and recommendation logic to understand the trade-offs behind a pricing move.</p>
+        </div>
+        <div class="panel"><img src="assets/pricing-lab.webp" alt="Pricing Lab what-if simulator" /></div>
+      </div>
+
+      <div class="showcase reverse">
+        <div class="showcase-copy">
+          <span class="kicker">Price Deployment Center</span>
+          <h3>Turn approved recommendations into controlled execution.</h3>
+          <p>Manage versioned price books, effective dates, approvals, scheduled deployments, publishing history and rollback from one auditable workflow.</p>
+        </div>
+        <div class="panel"><img src="assets/price-deployment.webp" alt="Price Deployment Center" /></div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section shell">
+      <div class="section-heading centered">
+        <div class="eyebrow">CLOSED-LOOP WORKFLOW</div>
+        <h2>Detect → Quantify → Decide → Approve → Deploy → Measure</h2>
+      </div>
+      <div class="workflow-grid">
+        <div><b>01</b><h3>Ingest</h3><p>CSV/XLSX and ERP-ready ingestion with schema mapping, sync runs, lineage and checkpoints.</p></div>
+        <div><b>02</b><h3>Detect</h3><p>Multiple margin detectors surface pricing, discount, freight, rebate, contract and customer profitability issues.</p></div>
+        <div><b>03</b><h3>Prioritize</h3><p>Quantify annualized exposure and rank opportunities by value, confidence and recovery potential.</p></div>
+        <div><b>04</b><h3>Govern</h3><p>Deal Guard, RBAC, approvals, audit logs and policy controls keep pricing decisions accountable.</p></div>
+        <div><b>05</b><h3>Deploy</h3><p>Versioned price books, effective dates, publishing, rollback and downstream deployment hooks.</p></div>
+        <div><b>06</b><h3>Prove</h3><p>Track action outcomes and recovered dollars to close the loop between insight and realized margin.</p></div>
+      </div>
+    </section>
+
+    <section id="technical" class="section shell technical">
+      <div class="section-heading">
+        <div class="eyebrow">TECHNICAL DEPTH</div>
+        <h2>Built as a transferable software asset, not a prototype.</h2>
+      </div>
+      <div class="tech-grid">
+        <div><span>Backend</span><strong>Python · FastAPI · SQLAlchemy · Alembic</strong></div>
+        <div><span>Data</span><strong>PostgreSQL · SQLite · pandas · NumPy · scikit-learn</strong></div>
+        <div><span>Enterprise</span><strong>Multi-tenancy · RBAC · API keys · OIDC · SCIM · audit logging</strong></div>
+        <div><span>Operations</span><strong>Docker · Docker Compose · OpenAPI · webhooks · metrics · background jobs</strong></div>
+        <div><span>Commercial</span><strong>Billing foundations · partner portfolio · white-label support · entitlements</strong></div>
+        <div><span>Validation</span><strong>102 tests · migrations · sale-readiness checks · integrity manifest</strong></div>
+      </div>
+    </section>
+
+    <section id="acquisition" class="section shell acquisition">
+      <div>
+        <div class="eyebrow">ACQUISITION OPPORTUNITY</div>
+        <h2>RecoveryMargin is available for outright acquisition.</h2>
+        <p>Pre-revenue, no existing customers, and intentionally priced as a transferable software asset. The sale-ready package includes source code, deployment tooling, migrations, documentation, integrity checks, and buyer handoff materials.</p>
+      </div>
+      <div class="acquisition-card">
+        <span>Best fit</span>
+        <strong>ERP consultancies · pricing firms · distributor software vendors · finance advisory firms</strong>
+        <small>Full source code &amp; project assets included.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <div class="brand footer-brand"><img src="assets/recoverymargin-logo.webp" alt="" /><span>Recovery<span>Margin</span></span></div>
+    <p>Enterprise margin recovery &amp; pricing intelligence for wholesale and industrial distribution.</p>
+  </footer>
+</body>
+</html>
